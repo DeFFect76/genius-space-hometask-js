@@ -49,5 +49,52 @@
 //Зробіть сервіс який отримує число від 1 до 12
 // виведіть місяць який дорівнює числу
 
+// const monthNumber = Number(prompt('Введіть число від 1 до 12:'));
+
+// let monthName;
+// if (monthNumber === 1) {
+//   monthName = 'Січень';
+// } else if (monthNumber === 2) {
+//   monthName = 'Лютий';
+// } else if (monthNumber === 3) {
+//   monthName = 'Березень';
+// } else if (monthNumber === 4) {
+//   monthName = 'Квітень';
+// } else if (monthNumber === 5) {
+//   monthName = 'Травень';
+// } else if (monthNumber === 6) {
+//   monthName = 'Червень';
+// } else if (monthNumber === 7) {
+//   monthName = 'Липень';
+// } else if (monthNumber === 8) {
+//   monthName = 'Серпень';
+// } else if (monthNumber === 9) {
+//   monthName = 'Вересень';
+// } else if (monthNumber === 10) {
+//   monthName = 'Жовтень';
+// } else if (monthNumber === 11) {
+//   monthName = 'Листопад';
+// } else if (monthNumber === 12) {
+//   monthName = 'Грудень';
+// } else {
+//   monthName = 'Невірне число';
+// }
+
+// console.log(monthName);
+
 //Зробіть сервіс який отримує тризначне число
 //Поверніть користувачу сумму цих чисел
+
+// const threeDigitNumber = prompt('Введіть тризначне число:');
+
+// let sum;
+// if (threeDigitNumber.length === 3 && !isNaN(threeDigitNumber)) {
+//   const digit1 = Number(threeDigitNumber[0]);
+//   const digit2 = Number(threeDigitNumber[1]);
+//   const digit3 = Number(threeDigitNumber[2]);
+//   sum = digit1 + digit2 + digit3;
+// } else {
+//   sum = 'Невірне число';
+// }
+
+// console.log(sum);
